@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar-left span {
+    font-size: 18px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right span {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.navbar-right button {
+    background-color: white;
+    color: purple;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-right button:hover {
+    background-color: #e0e0e0;
+}
